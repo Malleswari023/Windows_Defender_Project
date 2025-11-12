@@ -1,0 +1,72 @@
+-->Project Title
+Windows Defender Security & Malware Protection System
+
+-->Student Details
+Name: Malleswari P
+Course: Bachelor of Computer Applications (BCA)
+Project Type: IT Support 
+Date: November 2025
+
+-->Objective
+To demonstrate how Windows Defender protects a computer from viruses, malware, and ransomware by performing different types of scans, checking protection history, and using PowerShell commands for automation.
+
+-->Tools & Technologies Used
+
+Windows Defender (built-in antivirus in Windows 11)
+PowerShell (for scan automation)
+Microsoft Excel (for maintaining scan logs)
+Notepad (for documentation)
+
+-->Procedure
+Step 1 — Verify Protection Status
+Opened Windows Security → Virus & threat protection
+→ Ensured Real-time protection is ON.
+→ Took a screenshot of the Defender dashboard.
+
+Step 2 — Performed Different Scans
+Executed Quick Scan, Full Scan, and Customised Scan from the Windows Security app.
+Observed duration and results for each scan.
+
+Step 3 — Checked Protection History
+Viewed Protection History to check if any threats were found and what actions were taken (quarantine, removal, etc.).
+
+Step 4 — Used PowerShell Commands
+
+Used PowerShell to automate and check Defender status:
+Get-MpComputerStatus
+Start-MpScan -ScanType QuickScan
+
+Step 5 — Enabled Ransomware Protection
+Enabled Controlled Folder Access under Ransomware protection to safeguard important folders (e.g., Documents).
+
+Step 6 — Documented Results
+Created a scan log and included screenshots of all steps in the report.
+
+-->Results
+Windows Defender successfully detected and quarantined threats.
+All other scans showed the system was safe.
+Controlled Folder Access prevented unauthorized access to files.
+PowerShell commands helped in automating and verifying system protection.
+
+-->Conclusion
+This project demonstrated how Windows Defender protects a Windows system through multiple layers of defense.
+By performing scans, checking protection history, and using PowerShell automation, this project helped understand endpoint security, malware protection, and IT support tasks effectively.
+
+-->Screenshots (Attached Separately)
+Virus & Threat Protection Dashboard
+Real-time Protection ON
+Quick Scan / Full Scan / Custom Scan results
+Protection History
+PowerShell command output
+Controlled Folder Access page
+
+-->Project Files
+      File Name	                        Description
+windows_defender_report.pdf	   Full project documentation
+scan_log.xlsx	                   Log of scan results
+screenshots                        Folder containing all screenshots
+README.md	                   Summary for GitHub
+
+-->Outcome
+The project provides hands-on experience in system protection, malware scanning, and basic cybersecurity practices.
+It strengthens technical support knowledge — especially in endpoint management and troubleshooting.
